@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Prefi</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" /> <!-- https://fonts.google.com/ -->
+    <link rel="stylesheet" href="css/stylesheet.css">
+
+
+</head>
+<body>
+  <div class="tm-container">
+    <div class="tm-row">
+      <!-- Site Header -->
+      <div class="tm-left">
+        <div class="tm-left-inner">
+          <div class="tm-site-header">
+            <i class="fas fa-coffee fa-3x tm-site-logo"></i>
+            <h1 class="tm-site-name">Brew and Buzz Cafe</h1>
+          </div>
+          <nav class="tm-site-nav">
+            <ul class="tm-site-nav-ul">
+              <li class="tm-page-nav-item">
+                <a href="#drink" class="tm-page-link active">
+                  <i class="fas fa-mug-hot tm-page-link-icon"></i>
+                  <span>Drink Menu</span>
+                </a>
+              </li>
+              <li class="tm-page-nav-item">
+                <a href="#about" class="tm-page-link">
+                  <i class="fas fa-users tm-page-link-icon"></i>
+                  <span>About Us</span>
+                </a>
+              </li>
+              <li class="tm-page-nav-item">
+                <a href="#special" class="tm-page-link">
+                  <i class="fas fa-glass-martini tm-page-link-icon"></i>
+                  <span>Special Items</span>
+                </a>
+              </li>
+              <li class="tm-page-nav-item">
+                <a href="#contact" class="tm-page-link">
+                  <i class="fas fa-comments tm-page-link-icon"></i>
+                  <span>Contact</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>        
+      </div>
+      <div class="tm-right">
+        <main class="tm-main">
+          <div id="drink" class="tm-page-content">
+            <!-- Drink Menu Page -->
+            <nav class="tm-black-bg tm-drinks-nav">
+              <ul>
+                <li>
+                  <a href="#" class="tm-tab-link active" data-id="cold">Iced Coffee</a>
+                </li>
+                <li>
+                  <a href="#" class="tm-tab-link" data-id="hot">Hot Coffee</a>
+                </li>
+                <li>
+                  <a href="#" class="tm-tab-link" data-id="juice">Fruit Juice</a>
+                </li>
+              </ul>
+            </nav>
+
+            <div id="cold" class="tm-tab-content">
+              <div class="tm-list">
+                <div class="tm-list-item">          
+                  <img src="img/iced-americano.png" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">Iced Americano<span class="tm-list-item-price">₱75</span></h3>
+                    <p class="tm-list-item-description">Chilled water poured over espresso, served over ice, creating a bold and refreshing black coffee.</p>
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <img src="img/iced-cappuccino.png" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">Iced Cappuccino<span class="tm-list-item-price">₱75</span></h3>
+                    <p class="tm-list-item-description">Espresso topped with cold frothed milk and ice, offering a creamy and slightly strong coffee taste.</p>
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <img src="img/iced-espresso.png" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">Iced Espresso<span class="tm-list-item-price">₱75</span></h3>
+                    <p class="tm-list-item-description">A shot of espresso served over ice, concentrated and bold with a robust flavor.</p>
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <img src="img/iced-latte.png" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">Iced Latte<span class="tm-list-item-price">₱75</span></h3>
+                    <p class="tm-list-item-description">Smooth espresso mixed with cold milk and ice, creating a light, creamy coffee beverage.</p>
+                  </div>
+                </div> 
+                                       
+              </div>
+            </div> 
+
+            <div id="hot" class="tm-tab-content">
+              <div class="tm-list">
+              
+                <div class="tm-list-item">          
+                  <img src="img/hot-americano.png" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">Hot Americano<span class="tm-list-item-price">₱65</span></h3>
+                    <p class="tm-list-item-description">A simple espresso diluted with hot water, resulting in a strong, smooth, and rich black coffee.</p>              
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <img src="img/hot-cappuccino.png" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">Hot Cappuccino<span class="tm-list-item-price">₱60</span></h3>
+                    <p class="tm-list-item-description">Espresso with steamed milk and a thick layer of frothed milk on top, creating a creamy and bold drink.</p>                    
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <img src="img/hot-espresso.png" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">Hot Espresso<span class="tm-list-item-price">₱60</span></h3>
+                    <p class="tm-list-item-description"> A small but strong shot of coffee, offering an intense and rich flavor.</p>              
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <img src="img/hot-latte.png" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">Hot Latte<span class="tm-list-item-price">₱60</span></h3>
+                    <p class="tm-list-item-description">Espresso mixed with steamed milk and a thin layer of foam, creating a smooth, creamy coffee with a mild taste.</p>              
+                  </div>
+                </div>
+                         
+              </div>
+            </div>
+
+            <div id="juice" class="tm-tab-content">
+              <div class="tm-list">
+                <div class="tm-list-item">          
+                  <img src="img/smoothie-1.png" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">Strawberry Smoothie<span class="tm-list-item-price">₱100</span></h3>
+                    <p class="tm-list-item-description">A refreshing blend of strawberries, yogurt, and ice, delivering a sweet, fruity flavor.</p>              
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <img src="img/smoothie-2.png" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">Red Berry Smoothie<span class="tm-list-item-price">₱100</span></h3>
+                    <p class="tm-list-item-description">A mix of various red berries like raspberries, strawberries, and blackberries, blended into a tangy, sweet drink.</p>                    
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <img src="img/smoothie-3.png" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">Pineapple Smoothie<span class="tm-list-item-price">₱100</span></h3>
+                    <p class="tm-list-item-description">A tropical, refreshing smoothie made from fresh pineapple, often mixed with yogurt or ice for a cool, sweet treat.</p>              
+                  </div>
+                </div>
+                <div class="tm-list-item">          
+                  <img src="img/smoothie-4.png" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">Spinach Smoothie<span class="tm-list-item-price">₱100</span></h3>
+                    <p class="tm-list-item-description">A healthy green smoothie made with fresh spinach, often blended with fruits like bananas or apples for a nutritious, lightly sweet drink.</p>              
+                  </div>
+                </div>              
+              </div>
+            </div>
+            <!-- end Drink Menu Page -->
+          </div>
+
+          <!-- About Us Page -->
+          <div id="about" class="tm-page-content">
+            <div class="tm-black-bg tm-mb-20 tm-about-box-1">              
+              <h2 class="tm-text-primary tm-about-header">About Brew and Buzz Cafe</h2>
+              <div class="tm-list-item tm-list-item-2">                
+                <img src="img/about-1.png" alt="Image" class="tm-list-item-img tm-list-item-img-big">
+                <div class="tm-list-item-text-2">
+                  <p>Welcome to Brew & Buzz, where coffee and community come together in perfect harmony. From the moment you step through our doors, you'll be greeted by the rich aroma of freshly ground coffee beans and the warm, inviting atmosphere of a space designed for connection. Whether you're grabbing a quick cup to go or settling in for a cozy chat, our café is more than just a place for great coffee—it's a gathering spot for friends, old and new.</p>
+                </div>                
+              </div>
+            </div>
+            <div class="tm-black-bg tm-mb-20 tm-about-box-2">              
+              <div class="tm-list-item tm-list-item-2">                
+                <div class="tm-list-item-text-2">
+                  <h2 class="tm-text-primary">How we began</h2>
+                  <p>Founded in 2024, Brew & Buzz was born from a passion for creating the perfect blend of coffee and community. We believe every cup of coffee tells a story, and we're here to make yours a memorable one. Our expertly brewed drinks, crafted from the finest beans, are paired with a vibrant, buzzing environment where conversations flow as easily as our espresso shots. From early morning pick-me-ups to afternoon hangouts, we’re dedicated to providing an experience that’s as comforting and energizing as your favorite brew.</p>                  
+                </div>                
+                <img src="img/about-2.png" alt="Image" class="tm-list-item-img tm-list-item-img-big tm-img-right">                
+              </div>
+              <p>Join us at Brew & Buzz—where every sip sparks connection, and every visit feels like coming home.</p>
+            </div>
+          </div>
+          <!-- end About Us Page -->
+
+          <!-- Special Items Page -->
+          <div id="special" class="tm-page-content">
+            <div class="tm-special-items">
+              <div class="tm-black-bg tm-special-item">
+                <img src="img/special-01.jpg" alt="Image">
+                <div class="tm-special-item-description">
+                  <h2 class="tm-text-primary tm-special-item-title">"Citrus Zest Refresher"</h2>
+                  <p class="tm-special-item-text">Vibrant orange cocktails served in elegant glasses, garnished with lime wedges and sprigs of rosemary. The drinks exude a refreshing and zesty appeal, perfect for a sunny day.</p>  
+                </div>
+              </div>
+              <div class="tm-black-bg tm-special-item">
+                <img src="img/special-02.jpg" alt="Image">
+                <div class="tm-special-item-description">
+                  <h2 class="tm-text-primary tm-special-item-title">"Golden Parisian Crescents"</h2>
+                  <p class="tm-special-item-text">Flaky, buttery croissants dusted with a light sprinkle of powdered sugar, perfect for a classic French-inspired treat.</p>  
+                </div>
+              </div>
+              <div class="tm-black-bg tm-special-item">
+                <img src="img/special-03.jpg" alt="Image">
+                <div class="tm-special-item-description">
+                  <h2 class="tm-text-primary tm-special-item-title">"Garden Grilled Sliders"</h2>
+                  <p class="tm-special-item-text">Plant-based burgers, each topped with vibrant diced peppers and fresh lettuce, served in soft sesame buns.</p>  
+                </div>
+              </div>
+              <div class="tm-black-bg tm-special-item">
+                <img src="img/special-04.jpg" alt="Image">
+                <div class="tm-special-item-description">
+                  <h2 class="tm-text-primary tm-special-item-title">"Blushing Clouds"</h2>
+                  <p class="tm-special-item-text">Delicate, airy pink meringue kisses with a light and crispy texture that melts in your mouth.</p>  
+                </div>
+              </div>      
+              <div class="tm-black-bg tm-special-item">
+                <img src="img/special-05.jpg" alt="Image">
+                <div class="tm-special-item-description">
+                  <h2 class="tm-text-primary tm-special-item-title">"Berry Breeze"</h2>
+                  <p class="tm-special-item-text">A refreshing strawberry cocktail, garnished with fresh mint and strawberry slices. The drink is served over ice in a clear glass, highlighting its light pink hue and fruity accents. </p>  
+                </div>
+              </div>
+              <div class="tm-black-bg tm-special-item">
+                <img src="img/special-06.jpg" alt="Image">
+                <div class="tm-special-item-description">
+                  <h2 class="tm-text-primary tm-special-item-title">"Herb-Kissed Chicken Delight"</h2>
+                  <p class="tm-special-item-text"> A succulent stuffed chicken breast with sun-dried tomatoes and herbs, served with creamy mashed potatoes and crisp green beans.</p>  
+                </div>
+              </div>                      
+            </div>            
+          </div>
+          <!-- end Special Items Page -->
+
+          <!-- Contact Page -->
+          <div id="contact" class="tm-page-content">
+            <div class="tm-black-bg tm-contact-text-container">
+              <h2 class="tm-text-primary">Contact Brew and Buzz</h2>
+              <p>We'd love to hear from you! Whether you have a question, feedback, or just want to say hello, the team at Brew & Buzz is always ready to chat. Here’s how you can reach us:</p>
+            </div>
+            <div class="tm-black-bg tm-contact-form-container tm-align-right">
+              <form action="" method="POST" id="contact-form">
+                <div class="tm-form-group">
+                  <input type="text" name="name" class="tm-form-control" placeholder="Name" required="" />
+                </div>
+                <div class="tm-form-group">
+                  <input type="email" name="email" class="tm-form-control" placeholder="Email" required="" />
+                </div>        
+                <div class="tm-form-group tm-mb-30">
+                  <textarea rows="6" name="message" class="tm-form-control" placeholder="Message" required=""></textarea>
+                </div>        
+                <div>
+                  <button type="submit" class="tm-btn-primary tm-align-right">
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- end Contact Page -->
+        </main>
+      </div>    
+    </div>
+
+    
+  <!-- Background video -->
+  <div class="tm-video-wrapper">
+      <i id="tm-video-control-button" class="fas fa-pause"></i>
+      <video autoplay muted loop id="tm-video">
+          <source src="video/wave-cafe-video-bg.mp4" type="video/mp4">
+      </video>
+  </div>
+
+  <script src="js/jquery-3.4.1.min.js"></script>    
+  <script>
+
+    function setVideoSize() {
+      const vidWidth = 1920;
+      const vidHeight = 1080;
+      const windowWidth = window.innerWidth;
+      const windowHeight = window.innerHeight;
+      const tempVidWidth = windowHeight * vidWidth / vidHeight;
+      const tempVidHeight = windowWidth * vidHeight / vidWidth;
+      const newVidWidth = tempVidWidth > windowWidth ? tempVidWidth : windowWidth;
+      const newVidHeight = tempVidHeight > windowHeight ? tempVidHeight : windowHeight;
+      const tmVideo = $('#tm-video');
+
+      tmVideo.css('width', newVidWidth);
+      tmVideo.css('height', newVidHeight);
+    }
+
+    function openTab(evt, id) {
+      $('.tm-tab-content').hide();
+      $('#' + id).show();
+      $('.tm-tab-link').removeClass('active');
+      $(evt.currentTarget).addClass('active');
+    }    
+
+    function initPage() {
+      let pageId = location.hash;
+
+      if(pageId) {
+        highlightMenu($(`.tm-page-link[href^="${pageId}"]`)); 
+        showPage($(pageId));
+      }
+      else {
+        pageId = $('.tm-page-link.active').attr('href');
+        showPage($(pageId));
+      }
+    }
+
+    function highlightMenu(menuItem) {
+      $('.tm-page-link').removeClass('active');
+      menuItem.addClass('active');
+    }
+
+    function showPage(page) {
+      $('.tm-page-content').hide();
+      page.show();
+    }
+
+    $(document).ready(function(){
+
+      /***************** Pages *****************/
+
+      initPage();
+
+      $('.tm-page-link').click(function(event) {
+        
+        if(window.innerWidth > 991) {
+          event.preventDefault();
+        }
+
+        highlightMenu($(event.currentTarget));
+        showPage($(event.currentTarget.hash));
+      });
+
+      
+      /***************** Tabs *******************/
+
+      $('.tm-tab-link').on('click', e => {
+        e.preventDefault(); 
+        openTab(e, $(e.target).data('id'));
+      });
+
+      $('.tm-tab-link.active').click(); // Open default tab
+
+
+      /************** Video background *********/
+
+      setVideoSize();
+
+      // Set video background size based on window size
+      let timeout;
+      window.onresize = function(){
+        clearTimeout(timeout);
+        timeout = setTimeout(setVideoSize, 100);
+      };
+
+      // Play/Pause button for video background      
+      const btn = $("#tm-video-control-button");
+
+      btn.on("click", function(e) {
+        const video = document.getElementById("tm-video");
+        $(this).removeClass();
+
+        if (video.paused) {
+          video.play();
+          $(this).addClass("fas fa-pause");
+        } else {
+          video.pause();
+          $(this).addClass("fas fa-play");
+        }
+      });
+    });
+      
+  </script>
+</body>
+</html>
